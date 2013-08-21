@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/java/com/win/tools/easy/attence/common/AttenceConfig.java=UTF-8
+encoding//src/main/java/com/win/tools/easy/attence/dao/AttenceDAO.java=UTF-8
+encoding//src/main/java/com/win/tools/easy/attence/dao/DBManager.java=UTF-8
+encoding//src/main/java/com/win/tools/easy/attence/model/UserTableModel.java=UTF-8
+encoding//src/main/java/com/win/tools/easy/attence/ui/AttenceFrame.java=UTF-8
+encoding//src/main/java/com/win/tools/easy/attence/ui/tabs/LeavePanel.java=UTF-8
+encoding//src/main/java/com/win/tools/easy/attence/ui/tabs/UserPanel.java=UTF-8
+encoding//src/main/java/com/win/tools/easy/attence/ui/tabs/WorkdayPanel.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/resources=UTF-8

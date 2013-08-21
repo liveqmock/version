@@ -1,0 +1,12 @@
+一、平台说明:
+        本平台提供一个桌面、菜单栏、工具栏、系统托盘等组件，具体功能以插件方式扩展。
+    插件可以增加系统菜单、增加工具栏、创建窗口画面、增加系统托盘菜单等来实现自己的功能。
+二、插件开发说明：
+    1、插件必须继承com.win.tools.easy.attence.ui.PlatformPlugin，并在根目录下创建plugin.properties文件来描述插件信息，plugin.properties具体属性见附录。
+    系统启动后将自动检索classPath下的插件，并根据plugin.properties的pluginClasses指定的class调用其start方法启动插件。
+    开发人员应在start方法中进行菜单功能注册。当插件卸载时将调用其stop方法，一般在stop方法中进行插件的清理工作，
+    目前已知需要清理的是PersitentManager中放入的自定义对象需要remove掉。
+    2、插件需要的额外jar包请放入ext目录下。
+三、系统接口
+  1、FrameFactory.getPlatformInterface()获取平台接口，通过此接口可以进行平台ui上的操作。
+  2、PersitentManager 此类继承自HashMap，用于保存平台运行参数并持久化到文件，在平台再次启动时重新读取参数。

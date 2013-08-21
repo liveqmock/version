@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/win/tools/easy/chat=GBK
+encoding//src/main/java/com/win/tools/easy/chat/common/PersitentManager.java=UTF-8
+encoding//src/main/java/com/win/tools/easy/chat/server/ServiceConfig.java=UTF-8
+encoding//src/main/java/com/win/tools/easy/chat/server/dao/DBManager.java=UTF-8
+encoding//src/main/java/com/win/tools/easy/chat/server/dao/UserDAO.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/resources=UTF-8
+encoding/<project>=GBK
